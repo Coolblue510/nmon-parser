@@ -26,7 +26,7 @@ fmt.Println(dates)
 fmt.Println(times)
 fmt.Println(ago)
           
-	name := "/home/pranit/go/nmon_files/*_dates_ago.nmon"
+	name := "/home/pranit/go/nmon_files/*_"+dates+"_"+ago+".nmon"
 	//name := "/home/ec2-user/test/goproj/nmon_files/*.nmon"
 	// name := "/home/ec2-user/test/goproj/nmon_files/ip-172-31-10-38_200717_0733.nmon"
 	//name := "/Users/hero/Documents/temp/2020-01/to_guigui/LINUX_single_2563_144_50_10u10m.nmon"
@@ -120,7 +120,7 @@ fmt.Println(ago)
 
 func TestParseNmon(t *testing.T) {
 	
-	name := "/home/pranit/go/nmon_files/*_dates_ago.nmon"
+	name := "/home/pranit/go/nmon_files/*_"+dates+"_"+ago+".nmon"
 	//name := "/home/ec2-user/test/goproj/nmon_files/*.nmon"
 	//name := "/home/ec2-user/test/goproj/nmon_files/ip-172-31-10-38_200717_0733.nmon"
 	//name := "/Users/hero/Documents/temp/2020-01/to_guigui/LINUX_single_2563_144_50_10u10m.nmon"
